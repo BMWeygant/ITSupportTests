@@ -12,7 +12,6 @@ export default class QuestionsContainer extends Component {
         
     }
 
-
     render(){
         if(this.state.questions.length === 0){
             return <h1>Just going through motions</h1>
@@ -25,10 +24,10 @@ export default class QuestionsContainer extends Component {
                                 <h3>{question.id}. {question.query}</h3>
                                 <p>Your Response: {question.answer}</p>
                                 <p>Correct Answer: {question.correct_answer}</p>
-                                <li>{question.choices.split(",")[0].replace(/[\[\]"]+/g,"")}</li>
-                                <li>{question.choices.split(",")[1].replace(/[\[\]"]+/g,"")}</li>
-                                <li>{question.choices.split(",")[2].replace(/[\[\]"]+/g,"")}</li>
-                                <li>{question.choices.split(",")[3].replace(/[\[\]"]+/g,"")}</li>
+                                <li>{question.choice1}</li>
+                                <li>{question.choice2}</li>
+                                <li>{question.choice3}</li>
+                                <li>{question.choice4}</li>
                                 <p>Your Response: {question.category}</p>
                                 <p>Correct Answer: {question.topic}</p>
                             </div>
