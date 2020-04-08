@@ -17,23 +17,13 @@ export default class QuestionsContainer extends Component {
             return <h1>Just going through motions</h1>
             }
             return(
-                <div>
-                    <ul>
-                    {this.state.questions.map(question => (
-                            <div>
-                                <h3>{question.id}. {question.query}</h3>
-                                <p>Your Response: {question.answer}</p>
-                                <p>Correct Answer: {question.correct_answer}</p>
-                                <li>{question.choice1}</li>
-                                <li>{question.choice2}</li>
-                                <li>{question.choice3}</li>
-                                <li>{question.choice4}</li>
-                                <p>Your Response: {question.category}</p>
-                                <p>Correct Answer: {question.topic}</p>
-                            </div>
-                        ))
-                    }
-                    </ul>
+                <div className="quiz-wrapper">
+                    <div className="quiz-header">
+                        <h1>Please Answer All Questions</h1>
+                    </div>
+                    <form id="quiz-form">
+
+                    </form>
                 </div>
             )
     }
