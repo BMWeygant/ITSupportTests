@@ -21,8 +21,208 @@ export default class QuestionsContainer extends Component {
                     <div className="quiz-header">
                         <h1>Please Answer All Questions</h1>
                     </div>
-                    <form id="quiz-form">
-
+                    <form id="quiz-form" align="left">
+                        <label>
+                            <h4 className = 'quiz-question'>{this.state.questions[0].query}</h4>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice1}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice1}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice2}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice2}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice3}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice3}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice4}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice4}
+                        </label>
+                        <label>
+                            <h4 className = 'quiz-question'>{this.state.questions[0].query}</h4>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice1}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice1}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice2}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice2}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice3}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice3}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice4}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice4}
+                        </label>
+                        <label>
+                            <h4 className = 'quiz-question'>{this.state.questions[0].query}</h4>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice1}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice1}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice2}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice2}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice3}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice3}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice4}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice4}
+                        </label>
+                        <label>
+                            <h4 className = 'quiz-question'>{this.state.questions[0].query}</h4>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice1}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice1}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice2}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice2}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice3}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice3}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice4}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice4}
+                        </label>
+                        <label>
+                            <h4 className = 'quiz-question'>{this.state.questions[0].query}</h4>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice1}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice1}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice2}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice2}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice3}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice3}
+                        </label>
+                        <br></br>
+                        <label>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="relationship"
+                                 value={this.state.questions[0].choice4}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {this.state.questions[0].choice4}
+                        </label>
+                
                     </form>
                 </div>
             )
