@@ -27,7 +27,7 @@ export default class QuestionsContainer extends Component {
                              <input
                                  className="choice"
                                  type="radio" 
-                                 name="relationship"
+                                 name="question1"
                                  value={this.state.questions[0].choice1}
                                  //onChange={(e) => this.handleRelationship(e, "professional")}
                              /> {this.state.questions[0].choice1}
@@ -37,7 +37,7 @@ export default class QuestionsContainer extends Component {
                              <input
                                  className="choice"
                                  type="radio" 
-                                 name="relationship"
+                                 name="question1"
                                  value={this.state.questions[0].choice2}
                                  //onChange={(e) => this.handleRelationship(e, "professional")}
                              /> {this.state.questions[0].choice2}
@@ -47,7 +47,7 @@ export default class QuestionsContainer extends Component {
                              <input
                                  className="choice"
                                  type="radio" 
-                                 name="relationship"
+                                 name="question1"
                                  value={this.state.questions[0].choice3}
                                  //onChange={(e) => this.handleRelationship(e, "professional")}
                              /> {this.state.questions[0].choice3}
@@ -57,7 +57,7 @@ export default class QuestionsContainer extends Component {
                              <input
                                  className="choice"
                                  type="radio" 
-                                 name="relationship"
+                                 name="question1"
                                  value={this.state.questions[0].choice4}
                                  //onChange={(e) => this.handleRelationship(e, "professional")}
                              /> {this.state.questions[0].choice4}
