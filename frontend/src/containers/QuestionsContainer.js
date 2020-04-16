@@ -14,8 +14,13 @@ export default class QuestionsContainer extends Component {
     render(){
         return(
             <div>
-                {console.log(this.state.questions)}
-            {this.state.questions.filter(question => question.category == "Pop Culture")}
+                <div>
+            {this.state.questions.filter(question => {question.category === "PopCulture"})(
+                        <div>
+                            <p>ID: {question.id}</p>
+                            <p>query: {question.query}</p>
+                        </div>)}
+            </div>
         </div>
             // return(
             //     <div className="quiz-wrapper">
