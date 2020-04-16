@@ -14,14 +14,16 @@ export default class QuestionsContainer extends Component {
     render(){
         return(
             <div>
-                <div>
-            {this.state.questions.filter(question => {question.category === "PopCulture"})(
-                        <div>
-                            <p>ID: {question.id}</p>
-                            <p>query: {question.query}</p>
-                        </div>)}
+            {this.state.questions.map(question => {
+                if(question.category === "Pop Culture"){
+                    return <div>{question.query}</div>
+                }
+            } 
+            )}
             </div>
-        </div>
+        )
+    }
+}
             // return(
             //     <div className="quiz-wrapper">
             //         <div className="quiz-header">
@@ -232,12 +234,9 @@ export default class QuestionsContainer extends Component {
             //         </form>
             //     </div>
             // )
-        )
-    }
-
+    
     //  mapStateToProps = state => {
     //     return {
     //       question: state.questions
     //     }
     //   }
-}
