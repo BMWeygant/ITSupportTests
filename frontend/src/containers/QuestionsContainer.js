@@ -9,27 +9,13 @@ export default class QuestionsContainer extends Component {
         fetch("http://localhost:3001/questions")
         .then(res => res.json())
         .then(questions => this.setState( { questions }))
-        .then(JSON.stringify({
-            query: question.query,
-            correct_answer: question.correct_answer,
-            choice1: question.choice1,
-            choice2: question.choice2,
-            choice3: question.choice3,
-            choice4: question.choice4,
-            answer: question.answer,
-            topic: question.topic,
-            category: question.category,
-            id: question.id
-        }))
-        
     }
 
     render(){
         return(
             <div>
-        {this.state.questions.filter(function(question){
-            return question.category === "Pop Culture"
-        })}
+                {console.log(this.state.questions)}
+            {this.state.questions.filter(question => question.category == "Pop Culture")}
         </div>
             // return(
             //     <div className="quiz-wrapper">
@@ -243,4 +229,10 @@ export default class QuestionsContainer extends Component {
             // )
         )
     }
+
+    //  mapStateToProps = state => {
+    //     return {
+    //       question: state.questions
+    //     }
+    //   }
 }
