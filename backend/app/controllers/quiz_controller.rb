@@ -5,7 +5,7 @@ class QuizController < ApplicationController
     end
   
     def create
-      quiz = Quiz.new(question_params)
+      quiz = Quiz.new(quiz_params)
       render json: quiz
     end
     
@@ -15,7 +15,7 @@ class QuizController < ApplicationController
     end
     
     private
-    def question_params
-      params.require(:quiz).permit(:query, :correct_answer, :answer, :choice1, :choice2, :choice3, :choice4, :category, :topic)
+    def quiz_params
+      params.require(:quiz).permit(:category, :topic, :grade)
     end
 end
