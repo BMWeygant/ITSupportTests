@@ -13,6 +13,9 @@ function App() {
       <NavBar />
       <Route exact path="/" component={Home} />
       <Route path="/questions" component={QuestionsContainer} />
+      <Route path="/fundamentals" component={QuestionsContainer} />
+      <Route path="/networking" component={QuestionsContainer} />
+      <Route path="/operating-systems" component={QuestionsContainer} />
     </div>
     </Router>
   );
