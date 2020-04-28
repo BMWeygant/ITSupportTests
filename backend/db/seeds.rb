@@ -83,7 +83,7 @@ Question.create(query: "A network segment where only one device can communicate 
 Question.create(query: "A device that connects lots of devices and remembers which ones are connected to each interface is known as a _____.", correct_answer: "switch", answer: "", choice1: "hub", choice2: "switch", choice3: "router", choice4: "server", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "A defined set of standards that computers must follow in order to communicate properly is known as a ____.", correct_answer: "protocol", answer: "", choice1: "switch", choice2: "collision domain", choice3: "modulation", choice4: "protocol", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "What type of cable communicates binary data by changing the voltage between two ranges?", correct_answer: "Copper", answer: "", choice1: "Fiber", choice2: "Copper", choice3: "Gold", choice4: "Silver", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "Question 21", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
