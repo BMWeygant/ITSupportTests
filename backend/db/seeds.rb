@@ -91,6 +91,39 @@ Question.create(query: "What type of transmission will have a zero in a special 
 Question.create(query: "Where is the Start Frame Delimiter (SFD) found in an ethernet frame?", correct_answer: "Unicast", answer: "", choice1: "Broadcast", choice2: "Unicast", choice3: "Multicast", choice4: "Singlecast", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "MAC address stands for ____ address.", correct_answer: "", answer: "media access control", choice1: "media access control", choice2: "message authentication check", choice3: "maximum allowable cost", choice4: "memory access controller", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "The most common data link layer protocol for wired connections is _____.", correct_answer: "Ethernet", answer: "", choice1: "Ethernet", choice2: "BGP", choice3: "TCP", choice4: "UDP", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "UDP stands for ______. ", correct_answer: "User Datagram Protocol", answer: "", choice1: "Unified Data Pathway", choice2: "Unknown Data Protocol", choice3: "Universal Data Protocol", choice4: "User Datagram Protocol", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "You have installed a device at the physical layer. All of the systems you connect to this device will talk to each other at the same time. What have you installed?", correct_answer: "Hub", answer: "", choice1: "Router", choice2: "Server", choice3: "Switch", choice4: "Hub", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "A Local Area Network (LAN) uses Category 6 cabling. An issue with a connection results in a network link degradation and only one device can communicate at a time. What is the connection operating at?", correct_answer: "Half Duplex", answer: "", choice1: "Simplex", choice2: "Partial", choice3: "Half Duplex", choice4: "Full Duplex", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "A communications closet has a device that contains 48 ports. The device's sole function is to provide the ports. What type of device is in the closet?", correct_answer: "Patch Panel", answer: "", choice1: "Switch", choice2: "Patch Panel", choice3: "Router", choice4: "Hub", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+
+
+
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+
+
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+
+
+
+
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
