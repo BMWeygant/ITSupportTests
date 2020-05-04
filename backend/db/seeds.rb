@@ -134,9 +134,12 @@ Question.create(query: "Why do entries in a local Address Resolution Protocol (A
 Question.create(query: "What protocol communicates data between routers representing the edges of autonomous systems?", correct_answer: "Exterior gateway", answer: "", choice1: "Distance-vector", choice2: "Interior gateway", choice3: "Link state", choice4: "Exterior gateway", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "How many bits long is an IP address?", correct_answer: "32 bits", answer: "", choice1: "32 bits", choice2: "8 bits", choice3: "256 bits", choice4: "64 bits", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "When dealing with IPv4, what is the minimum IP header length?", correct_answer: "20 bytes", answer: "", choice1: "4 kilobytes", choice2: "20 bytes", choice3: "64 bytes", choice4: "8 bits", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "What is the process of taking a single IP datagram and splitting it up into several smaller datagrams called?", correct_answer: "Fragmentation", answer: "", choice1: "NAT firewall", choice2: "Load balancing", choice3: "Fragmentation", choice4: "Clustering", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "Which octet of the subnet mask 255.255.255.0 will tell the router the corresponding host ID?", correct_answer: "The last octet", answer: "", choice1: "The first octet", choice2: "The first and last octets", choice3: "The middle two octets", choice4: "The last octet", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "What type of network address space allows for nodes on a network to communicate with each other, but prevents any gateway router from forwarding traffic there, and are reserved for internal networks?", correct_answer: "Non-routable address space", answer: "", choice1: "IP address", choice2: "MAC address", choice3: "Subnet mask", choice4: "Non-routable address space", category: "Networking Basics", topic: "Quiz")
+
+
+
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
