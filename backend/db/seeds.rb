@@ -108,19 +108,16 @@ Question.create(query: "Please select the valid IP address.", correct_answer: "8
 
 Question.create(query: "What does CIDR stand for?", correct_answer: "Classless Inter-Domain Routing", answer: "", choice1: "Classless Inter-Domain Routing", choice2: "Classfull Identification Routing", choice3: "Classfull Inter-Destination Routing", choice4: "Classless Internet Destination Routing", category: "Networking Basics", topic: "Subnetting")
 Question.create(query: "Which of the following is a correct form of CIDR notation?", correct_answer: "192.168.1.0/24", answer: "", choice1: "192.168.1.0 + 255.255.255.0", choice2: "192.168.1.0/24", choice3: "192.168.1.0\24", choice4: "192.168.1.0:24", category: "Networking Basics", topic: "Subnetting")
-Question.create(query: "How many octets does a subnet mask have?", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Subnetting")
+Question.create(query: "How many octets does a subnet mask have?", correct_answer: "4", answer: "", choice1: "1", choice2: "2", choice3: "3", choice4: "4", category: "Networking Basics", topic: "Subnetting")
 
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Network Layer")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Network Layer")
+Question.create(query: "Who is permitted to use non-routable address space?", correct_answer: "Anyone", answer: "", choice1: "It's for testing purposes only", choice2: "Anyone", choice3: "The IANA", choice4: "The IETF", category: "Networking Basics", topic: "Routing")
+Question.create(query: "Select examples of routing protocols. Check all that apply.", correct_answer: ["Border Gateway Protocol", "Routing Information Protocol"], answer: "", choice1: "Border Gateway Protocol", choice2: "Hypertext Transfer Protocol", choice3: "Routing Information Protocol", choice4: "User Datagram Protocol", category: "Networking Basics", topic: "Routing")
+Question.create(query: "A typical routing table may contain which of the following? Check all that apply.", correct_answer: ["Destination Network", "Total hops"], answer: "", choice1: "Destination Network", choice2: "Total hops", choice3: "Destination Address", choice4: "TTL", category: "Networking Basics", topic: "Routing")
 
-
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "ARP stands for ______.", correct_answer: "Address Resolution Protocol", answer: "", choice1: "Anonymous Resource Protocol", choice2: "Address Resolution Protocol", choice3: "Augmented Resolution Picture", choice4: "Aggressive Resource Protection", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "TTL stands for _______.", correct_answer: "Time To Live", answer: "", choice1: "Taco Tuesday Lunch", choice2: "Time To Live", choice3: "Total Time Left", choice4: "Technical Telephony Layer", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "A ________ is where one network ends and another begins.", correct_answer: "demarcation point", answer: "", choice1: "routing table", choice2: "subnet mask", choice3: "routing protocol", choice4: "demarcation point", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "The process of taking a large network and splitting it up into many individual and smaller subnetworks is known as ________.", correct_answer: "subnetting", answer: "", choice1: "encapsulation", choice2: "fragmentation", choice3: "subnetting", choice4: "routing", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 
 
