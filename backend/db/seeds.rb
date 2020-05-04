@@ -102,14 +102,16 @@ Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2:
 
 
 
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
-Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "What happens to the TTL field of an IP datagram every time it reaches a router?", correct_answer: "The TTL field is decremented by one.", answer: "", choice1: "The TTL field is used for a cyclical redundancy check.", choice2: "The TTL field is decremented by one.", choice3: "The TTL field is reset to zero.", choice4: "The TTL field is incremented by one.", category: "Networking Basics", topic: "Network Layer")
+Question.create(query: "How many IP addresses does a class C network have?", correct_answer: "254", answer: "", choice1: "1", choice2: "65,536", choice3: "16,777,216", choice4: "254", category: "Networking Basics", topic: "Network Layer")
+Question.create(query: "Please select the valid IP address.", correct_answer: "8.8.8.8", answer: "", choice1: "8.8.8.8", choice2: "23.456.123.456", choice3: "257.70.312.49", choice4: "291.168.1.1", category: "Networking Basics", topic: "Network Layer")
+
+Question.create(query: "What does CIDR stand for?", correct_answer: "Classless Inter-Domain Routing", answer: "", choice1: "Classless Inter-Domain Routing", choice2: "Classfull Identification Routing", choice3: "Classfull Inter-Destination Routing", choice4: "Classless Internet Destination Routing", category: "Networking Basics", topic: "Subnetting")
+Question.create(query: "Which of the following is a correct form of CIDR notation?", correct_answer: "192.168.1.0/24", answer: "", choice1: "192.168.1.0 + 255.255.255.0", choice2: "192.168.1.0/24", choice3: "192.168.1.0\24", choice4: "192.168.1.0:24", category: "Networking Basics", topic: "Subnetting")
+Question.create(query: "How many octets does a subnet mask have?", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Subnetting")
+
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Network Layer")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Network Layer")
 
 
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
