@@ -8,3 +8,4 @@
 
 5. Added all questions from Course 2 Week 2.
 
+6. Added all known questions from Course 2 Week 3.

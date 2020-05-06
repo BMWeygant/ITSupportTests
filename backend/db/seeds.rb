@@ -339,6 +339,10 @@ choice3: "Four-way handshake",
 choice4: "Two-way handshake", 
 category: "Networking Basics",
 topic: "Transportation and Application Layer")
+
+
+
+
 Question.create(query: "",
 correct_answer: "",
 answer: "",
