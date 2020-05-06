@@ -5,3 +5,6 @@
 3. 20/35 questions of Networking Quiz entered into DB.
 
 4. Completed adding all questions from Course 2 Week 1 into DB.
+
+5. Added all questions from Course 2 Week 2.
+

@@ -140,6 +140,97 @@ Question.create(query: "What type of network address space allows for nodes on a
 
 
 
+Question.create(query: "What ordering of TCP flags makes up the Three-way Handshake?",
+correct_answer: "SYN, SYN/ACK, ACK",
+answer: "",
+choice1: "FIN, FIN/ACK, ACK",
+choice2: "SYN, ACK, FIN",
+choice3: "SYN, ACK, SYN, ACK",
+choice4: "SYN, SYN/ACK, ACK", 
+ategory: "Networking Basics",
+topic: "Transport and Application Layers")
+Question.create(query: "Transport layer protocols, like TCP and UDP, introduce the concept of a port. How many bits is a port field?",
+correct_answer: "16 bits",
+answer: "",
+choice1: "4 bits",
+choice2: "8 bits",
+choice3: "16 bits",
+choice4: "32 bits", 
+ategory: "Networking Basics",
+topic: "Transport and Application Layers")
+Question.create(query: "Please select all valid TCP control flags.",
+correct_answer: ["ACK", "RST", "URG"],
+answer: "",
+choice1: "ACK",
+choice2: "RST",
+choice3: "URG",
+choice4: "WAIT", 
+ategory: "Networking Basics",
+topic: "Transport and Application Layers")
+Question.create(query: "A device that blocks traffic that meets certain criteria is know as a ________.",
+correct_answer: "Firewall",
+answer: "",
+choice1: "Firewall",
+choice2: "Router",
+choice3: "Hub",
+choice4: "Switch", 
+ategory: "Networking Basics",
+topic: "Transport and Application Layers")
+Question.create(query: "",
+correct_answer: "",
+answer: "",
+choice1: "",
+choice2: "",
+choice3: "",
+choice4: "", 
+ategory: "Networking Basics",
+topic: "Quiz")
+Question.create(query: "",
+correct_answer: "",
+answer: "",
+choice1: "",
+choice2: "",
+choice3: "",
+choice4: "", 
+ategory: "Networking Basics",
+topic: "Quiz")
+Question.create(query: "",
+correct_answer: "",
+answer: "",
+choice1: "",
+choice2: "",
+choice3: "",
+choice4: "", 
+ategory: "Networking Basics",
+topic: "Quiz")
+Question.create(query: "",
+correct_answer: "",
+answer: "",
+choice1: "",
+choice2: "",
+choice3: "",
+choice4: "", 
+ategory: "Networking Basics",
+topic: "Quiz")
+
+
+
+
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
+
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
 Question.create(query: "", correct_answer: "", answer: "", choice1: "", choice2: "", choice3: "", choice4: "", category: "Networking Basics", topic: "Quiz")
