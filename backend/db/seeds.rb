@@ -478,6 +478,33 @@ choice3: "data link layer",
 choice4: "network layer", 
 category: "Networking",
 topic: "VPNs & Proxies")
+Question.create(query: "DNS stands for _________.",
+correct_answer: "Domain Name System",
+answer: "",
+choice1: "Do Not Signal",
+choice2: "Domain Name System",
+choice3: "Dynamic Name Server",
+choice4: "Diversified Nomenclature System", 
+category: "Networking",
+topic: "Networking Services Quiz")
+Question.create(query: "A DNS record that's used to redirect traffic from one domain name to another is known as a _______ record.",
+correct_answer: "CNAME",
+answer: "",
+choice1: "SOA",
+choice2: "CNAME",
+choice3: "NS",
+choice4: "Quad A", 
+category: "Networking",
+topic: "Networking Services Quiz")
+Question.create(query: "Administration and definition of TLDs are handled by a non-profit organization known as _______.",
+correct_answer: "ICANN",
+answer: "",
+choice1: "ICANN",
+choice2: "FQDN",
+choice3: "DHCP",
+choice4: "CNAME", 
+category: "Networking",
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -486,7 +513,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -495,7 +522,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -504,7 +531,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -513,7 +540,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -522,7 +549,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -531,7 +558,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -540,7 +567,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -549,34 +576,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
-Question.create(query: "",
-correct_answer: "",
-answer: "",
-choice1: "",
-choice2: "",
-choice3: "",
-choice4: "", 
-category: "Networking",
-topic: "Quiz")
-Question.create(query: "",
-correct_answer: "",
-answer: "",
-choice1: "",
-choice2: "",
-choice3: "",
-choice4: "", 
-category: "Networking",
-topic: "Quiz")
-Question.create(query: "",
-correct_answer: "",
-answer: "",
-choice1: "",
-choice2: "",
-choice3: "",
-choice4: "", 
-category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 
 
 Question.create(query: "",
@@ -587,7 +587,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -596,7 +596,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -605,7 +605,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -614,7 +614,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -623,7 +623,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -632,7 +632,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -641,7 +641,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -650,7 +650,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -659,7 +659,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -668,7 +668,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -677,7 +677,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -686,7 +686,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -695,7 +695,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -704,7 +704,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -713,7 +713,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -722,7 +722,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -731,7 +731,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -740,7 +740,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -749,7 +749,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -758,7 +758,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -767,7 +767,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -776,7 +776,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 Question.create(query: "",
 correct_answer: "",
 answer: "",
@@ -785,7 +785,7 @@ choice2: "",
 choice3: "",
 choice4: "", 
 category: "Networking",
-topic: "Quiz")
+topic: "Networking Services Quiz")
 
 
 Question.create(query: "",
