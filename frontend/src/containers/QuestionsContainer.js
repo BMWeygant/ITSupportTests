@@ -14,7 +14,8 @@ export default class QuestionsContainer extends Component {
 
     render(){
         return(
-            <div><form>
+            <div className="quiz-wrapper">
+                <form id="quiz-form" align="left">
             <div>
             {this.state.questions.map(question => {
                 if(question.category === "Fundamentals"){
@@ -65,6 +66,7 @@ export default class QuestionsContainer extends Component {
             }
         )
     }
+                <button>Submit</button>
             </div>
         </form>
     </div>
