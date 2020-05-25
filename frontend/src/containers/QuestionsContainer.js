@@ -11,19 +11,64 @@ export default class QuestionsContainer extends Component {
         .then(questions => this.setState( { questions }))
     }
 
+
     render(){
         return(
             <div>
             {this.state.questions.map(question => {
-                if(question.category === "Pop Culture"){
-                    return <div>{question.query}</div>
+                if(question.category === "Fundamentals"){
+                    return(<div>
+                        <label>
+                            <h4 className = 'quiz-question'>{question.query}</h4>
+                             <input
+                                 className="choice"
+                                 type="radio" 
+                                 name="question1"
+                                 value={question.choice1}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {question.choice1}
+                        </label>
+                        <br></br>
+                         <label>
+                              <input
+                                  className="choice"
+                                 type="radio" 
+                                 name="question1"
+                                 value={question.choice2}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {question.choice2}
+                        </label>
+                        <br></br>
+                        <label>
+                              <input
+                                  className="choice"
+                                 type="radio" 
+                                 name="question1"
+                                 value={question.choice3}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {question.choice3}
+                        </label>
+                        <br></br>
+                        <label>
+                              <input
+                                  className="choice"
+                                 type="radio" 
+                                 name="question1"
+                                 value={question.choice4}
+                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                             /> {question.choice4}
+                        </label>
+                        </div>
+                    )
                 }
-            } 
-            )}
-            </div>
+            }
         )
     }
+            </div>
+    )
+    }
 }
+    
             // return(
             //     <div className="quiz-wrapper">
             //         <div className="quiz-header">
