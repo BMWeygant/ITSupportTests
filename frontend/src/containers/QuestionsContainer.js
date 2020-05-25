@@ -14,6 +14,7 @@ export default class QuestionsContainer extends Component {
 
     render(){
         return(
+            <div><form>
             <div>
             {this.state.questions.map(question => {
                 if(question.category === "Fundamentals"){
@@ -25,7 +26,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name="question1"
                                  value={question.choice1}
-                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                                 //onChange={(e) => this.handleChange(e, choice1)}
                              /> {question.choice1}
                         </label>
                         <br></br>
@@ -35,7 +36,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name="question1"
                                  value={question.choice2}
-                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                                 //onChange={(e) => this.handleChange(e, choice2)}
                              /> {question.choice2}
                         </label>
                         <br></br>
@@ -45,7 +46,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name="question1"
                                  value={question.choice3}
-                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                                 //onChange={(e) => this.handleChange(e, choice3)}
                              /> {question.choice3}
                         </label>
                         <br></br>
@@ -55,7 +56,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name="question1"
                                  value={question.choice4}
-                                 //onChange={(e) => this.handleRelationship(e, "professional")}
+                                 //onChange={(e) => this.handleChange(e, choice4)}
                              /> {question.choice4}
                         </label>
                         </div>
@@ -65,6 +66,8 @@ export default class QuestionsContainer extends Component {
         )
     }
             </div>
+        </form>
+    </div>
     )
     }
 }
