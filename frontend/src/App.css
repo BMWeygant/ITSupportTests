@@ -30,8 +30,17 @@
   color: white;
 }
 
+.start-link{
+  background-color: #afafaf;
+  color: #ffffff;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.test-category-link{
+  padding-left: 25%;
 }
 
 @keyframes App-logo-spin {
