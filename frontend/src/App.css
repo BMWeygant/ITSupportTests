@@ -35,6 +35,9 @@
   color: #ffffff;
 }
 
+.start-button {
+  background-color: #afafaf;
+}
 .App-link {
   color: #61dafb;
 }

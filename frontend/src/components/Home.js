@@ -12,7 +12,7 @@ export default class Home extends Component {
           <h1>Welcome</h1>
           <h3>Please Select Which Course You Wish To Practice</h3>
           <div className="test-category-link" align="left">
-          <Link to = "/fundamentals" className='start-link' activeclassname="activeLink">Technical Fundamentals</Link>
+          <button className='start-button' activeclassname="activeLink"><Link to = "/fundamentals" className="start-link">Technical Fundamentals</Link></button>
           <br></br>
           <Link to = "/networking" className='start-link' activeclassname="activeLink">Networking</Link>
           <br></br>
