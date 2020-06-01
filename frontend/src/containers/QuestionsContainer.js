@@ -11,21 +11,16 @@ export default class QuestionsContainer extends Component {
         .then(questions => this.setState( { questions }))
     }
 
-    handleSubmit = (event) => {
-        event.preventDefault()
-    }
-
-
     render(){
         let counter = 0
         return(
             <div className="quiz-wrapper">
                 <form id="quiz-form" align="left">
             <div>
-            {this.state.questions.map(question => {
+            {this.state.questions.map(question => {               
                 counter++
-                if(question.category === "Fundamentals" && counter < 5){ 
-                    return(              
+                if(counter <= 3){                     
+                    return(                                   
                     <div>
                         <label>
                             <h4 className = 'quiz-question'>{question.query}</h4>
@@ -40,7 +35,7 @@ export default class QuestionsContainer extends Component {
                         <br></br>
                          <label>
                               <input
-                                  className="choice"
+                                 className="choice"
                                  type="radio" 
                                  name="question1"
                                  value={question.choice2}
@@ -50,7 +45,7 @@ export default class QuestionsContainer extends Component {
                         <br></br>
                         <label>
                               <input
-                                  className="choice"
+                                 className="choice"
                                  type="radio" 
                                  name="question1"
                                  value={question.choice3}
@@ -60,7 +55,7 @@ export default class QuestionsContainer extends Component {
                         <br></br>
                         <label>
                               <input
-                                  className="choice"
+                                 className="choice"
                                  type="radio" 
                                  name="question1"
                                  value={question.choice4}
@@ -73,7 +68,7 @@ export default class QuestionsContainer extends Component {
             }
         )
     }
-                <button onClick={this.handleSubmit}>Submit</button>
+                <button>Submit</button>
             </div>
         </form>
     </div>
