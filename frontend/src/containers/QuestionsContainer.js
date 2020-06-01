@@ -11,15 +11,22 @@ export default class QuestionsContainer extends Component {
         .then(questions => this.setState( { questions }))
     }
 
+    handleSubmit = (event) => {
+        event.preventDefault()
+    }
+
 
     render(){
+        let counter = 0
         return(
             <div className="quiz-wrapper">
                 <form id="quiz-form" align="left">
             <div>
             {this.state.questions.map(question => {
-                if(question.category === "Fundamentals"){
-                    return(<div>
+                counter++
+                if(question.category === "Fundamentals" && counter < 5){ 
+                    return(              
+                    <div>
                         <label>
                             <h4 className = 'quiz-question'>{question.query}</h4>
                              <input
@@ -66,7 +73,7 @@ export default class QuestionsContainer extends Component {
             }
         )
     }
-                <button>Submit</button>
+                <button onClick={this.handleSubmit}>Submit</button>
             </div>
         </form>
     </div>
