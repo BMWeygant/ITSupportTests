@@ -1,3 +1,14 @@
+TODO
+1. Fix bug where only can select one radio button in whole quiz. - Done (name value)
+2. Draw random questions from questions array and display them in quiz. - Done (shuffle function added)
+3. Configure quiz grading equation (Total of correct answers/array.length)
+4. Produce handlechange function to set {questions.answer} to selected choice.
+5. Configure handleSubmit to grade quiz and reset the quiz. Redirect to grade pae perhaps?
+
+
+
+
+PROGRESS UPDATES
 1. Technical Fundamentals Weeks 1-4 Questions (non-checkbox) questions added to seeds.
 
 2. Course 2 week 1 questions added to database, except for Week 1 Quiz.
