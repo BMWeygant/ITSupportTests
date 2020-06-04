@@ -1,6 +1,4 @@
 TODO
-1. Fix bug where only can select one radio button in whole quiz. - Done (name value)
-2. Draw random questions from questions array and display them in quiz. - Done (shuffle function added)
 3. Configure quiz grading equation (Total of correct answers/array.length)
 4. Produce handlechange function to set {questions.answer} to selected choice.
 5. Configure handleSubmit to grade quiz and reset the quiz. Redirect to grade pae perhaps?
@@ -22,3 +20,8 @@ PROGRESS UPDATES
 6. Added all known questions from Course 2 Week 3.
 
 7. 33/46 questions Course 2 Week 4 Quiz
+
+8. Added randomShuffleArray function and shuffled questions array before mapping.
+
+9. Resolved radio button issue where form name was static for all questions. Swapped with {question.id}
+
