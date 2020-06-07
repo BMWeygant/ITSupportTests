@@ -1,8 +1,8 @@
 TODO
+1. Reinstate counter so all questions in array arent shuffled (max 20).
+2. Configure handleSubmit to grade quiz and reset the quiz. Redirect to grade pae perhaps?
 3. Configure quiz grading equation (Total of correct answers/array.length)
 4. Produce handlechange function to set {questions.answer} to selected choice.
-5. Configure handleSubmit to grade quiz and reset the quiz. Redirect to grade pae perhaps?
-
 
 
 
@@ -24,4 +24,6 @@ PROGRESS UPDATES
 8. Added randomShuffleArray function and shuffled questions array before mapping.
 
 9. Resolved radio button issue where form name was static for all questions. Swapped with {question.id}
+
+10. Added while loop to shuffle array before mapping it. Hopefully prevents bug where questions reshuffle when state changes.
 

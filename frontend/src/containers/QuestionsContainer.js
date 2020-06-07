@@ -10,6 +10,7 @@ export default class QuestionsContainer extends Component {
         .then(res => res.json())
         .then(questions => this.setState( { questions }))
     }
+    
 
     randomArrayShuffle(array) {
         let currentIndex = array.length, temporaryValue, randomIndex;
@@ -26,13 +27,21 @@ export default class QuestionsContainer extends Component {
 
     render(){
         let counter = 0
+        let rcounter = 0
+        let randomQuestions = []
+        while(rcounter < this.state.questions.length){  
+            randomQuestions.push(this.randomArrayShuffle(this.state.questions)[0])
+            rcounter++
+        }
         return(
             <div className="quiz-wrapper">
                 <form id="quiz-form" align="left">
             <div>
-            {this.randomArrayShuffle(this.state.questions).map(question => { 
-                // quest[Math.floor(Math.random() * myShows.length)];                                  
-                    return(                                   
+            {console.log(randomQuestions)}
+            {randomQuestions.map(question => {  
+                counter++
+                if(counter <= 5){                           
+                    return(                                  
                     <div>
                         <label>
                             <h4 className = 'quiz-question'>{question.query}</h4>
@@ -41,7 +50,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name={question.id}
                                  value={question.choice1}
-                                 //onChange={(e) => this.handleChange(e, choice1)}
+                                 //onChange={(e) => this.handleChange(e, question.choice1)}
                              /> {question.choice1}
                         </label>
                         <br></br>
@@ -51,7 +60,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name={question.id}
                                  value={question.choice2}
-                                 //onChange={(e) => this.handleChange(e, choice2)}
+                                 //onChange={(e) => this.handleChange(e, question.choice2)}
                              /> {question.choice2}
                         </label>
                         <br></br>
@@ -61,7 +70,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name={question.id}
                                  value={question.choice3}
-                                 //onChange={(e) => this.handleChange(e, choice3)}
+                                 //onChange={(e) => this.handleChange(e, question.choice3)}
                              /> {question.choice3}
                         </label>
                         <br></br>
@@ -71,12 +80,12 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name={question.id}
                                  value={question.choice4}
-                                 //onChange={(e) => this.handleChange(e, choice4)}
+                                 //onChange={(e) => this.handleChange(e, question.choice4)}
                              /> {question.choice4}
                         </label>
                         </div>
                     )
-                
+                }
             }
         )
     }
