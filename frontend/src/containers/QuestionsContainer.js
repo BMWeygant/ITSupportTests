@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 
 export default class QuestionsContainer extends Component {
    state = {
-       questions: []
+       questions: [],
+       counter: 0,
+       answer: ''
    }
    
     componentDidMount() {
@@ -10,7 +12,7 @@ export default class QuestionsContainer extends Component {
         .then(res => res.json())
         .then(questions => this.setState( { questions }))
     }
-    
+
 
     randomArrayShuffle(array) {
         let currentIndex = array.length, temporaryValue, randomIndex;
@@ -23,13 +25,30 @@ export default class QuestionsContainer extends Component {
         }
              return array;
     }
+
+    shouldComponentUpdate(nextState) {
+       if(this.state.questions != this.state.questions){ 
+        return false
+        }
+       else 
+        return true 
+      }
     
+    handleChange = (event) => {
+        console.log(event)
+        this.setState({
+            [event.target.name]: event.target.value
+        })
+    }
+
+
+
 
     render(){
         let counter = 0
         let rcounter = 0
         let randomQuestions = []
-        while(rcounter < this.state.questions.length){  
+        while(rcounter < this.state.questions.length){ 
             randomQuestions.push(this.randomArrayShuffle(this.state.questions)[0])
             rcounter++
         }
@@ -37,12 +56,11 @@ export default class QuestionsContainer extends Component {
             <div className="quiz-wrapper">
                 <form id="quiz-form" align="left">
             <div>
-            {console.log(randomQuestions)}
             {randomQuestions.map(question => {  
                 counter++
                 if(counter <= 5){                           
                     return(                                  
-                    <div>
+                    <div key={question.id}>
                         <label>
                             <h4 className = 'quiz-question'>{question.query}</h4>
                              <input
@@ -50,8 +68,8 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name={question.id}
                                  value={question.choice1}
-                                 //onChange={(e) => this.handleChange(e, question.choice1)}
-                             /> {question.choice1}
+                                 onChange={(e) => this.handleChange(e, question.choice1)}
+                             /> {question.choice1} {console.log(question.choice1)}
                         </label>
                         <br></br>
                          <label>
@@ -60,7 +78,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name={question.id}
                                  value={question.choice2}
-                                 //onChange={(e) => this.handleChange(e, question.choice2)}
+                                 onChange={(e) => this.handleChange(e, question.choice2)}
                              /> {question.choice2}
                         </label>
                         <br></br>
@@ -70,7 +88,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name={question.id}
                                  value={question.choice3}
-                                 //onChange={(e) => this.handleChange(e, question.choice3)}
+                                 onChange={(e) => this.handleChange(e, question.choice3)}
                              /> {question.choice3}
                         </label>
                         <br></br>
@@ -80,7 +98,7 @@ export default class QuestionsContainer extends Component {
                                  type="radio" 
                                  name={question.id}
                                  value={question.choice4}
-                                 //onChange={(e) => this.handleChange(e, question.choice4)}
+                                 onChange={(e) => this.handleChange(e, question.choice4)}
                              /> {question.choice4}
                         </label>
                         </div>
