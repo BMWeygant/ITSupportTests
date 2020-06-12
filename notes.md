@@ -25,5 +25,7 @@ PROGRESS UPDATES
 
 9. Resolved radio button issue where form name was static for all questions. Swapped with {question.id}
 
-10. Added while loop to shuffle array before mapping it. Hopefully prevents bug where questions reshuffle when state changes.
+10. Added while loop to shuffle array before mapping it. 
+
+11. Started test container to practice importing and using multiple components.
 
