@@ -1,7 +1,8 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-export default class QuestionsContainer extends Component {
-   state = {
-       quiz: []
-   }
-}
+// export default class QuestionsContainer extends Component {
+//    state = {
+//        quiz: []
+//    }
+
+// }
